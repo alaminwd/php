@@ -2,7 +2,7 @@
 
 $name = "Al Amin";
 
-// function change(& $name){
+// function change( $name){
 //     $name = "New Name";
 // }
 
