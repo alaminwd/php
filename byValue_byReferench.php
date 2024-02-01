@@ -11,7 +11,7 @@ $name = "Al Amin";
 
 
 function change(& $name){
-    $name = "New Name as Fahima";
+    $name = "New Name";
 }
 
 change($name); // by Reference
