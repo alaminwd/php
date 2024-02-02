@@ -21,7 +21,7 @@ function add($x1, $x2){
     echo "Addting $x1, $x2";
 }
 
-function divide($x, $x2){
+function divide($x1, $x2){
     echo "Devide $x1, $x2";
 }
 
