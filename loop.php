@@ -46,10 +46,42 @@
 
 // ========Nested for loop========/
 
-for($j=2; $j <= 10; $j++){
-    for($i = 1; $i <= 10; $i++){
-        echo $j." X ".$i." = ".$j*$i ."\n";
+// for($j=2; $j <= 10; $j++){
+//     for($i = 1; $i <= 10; $i++){
+//         echo $j." X ".$i." = ".$j*$i ."\n";
+//     }
+//     echo "\n";
+//     echo "\n";
+// }
+
+
+// ==========foreach=========/
+
+// $names =['Al Amin','Raj Barmon', 'Mohammad Ali', 'Monika', 'Fahima'];
+
+// foreach($names as $sl=> $name){
+//     echo "$sl => $name.\n";
+// }
+
+// ========break ======//
+for($i = 0; $i <=10 ; $i++){
+    if($i == 4){
+     continue ;
     }
-    echo "\n";
-    echo "\n";
+    echo $i."\n";
 }
+echo "\n";
+for($i = 0; $i <=10 ; $i++){
+    if($i == 4 || $i == 6){
+     continue ;
+    }
+    echo $i."\n";
+}
+
+// =====Continue =========//
+// for($i = 0; $i <=10 ; $i++){
+//     if($i == 0){
+//         continue ;
+//     }
+//     echo $i."\n";
+// }
